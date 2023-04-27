@@ -78,11 +78,14 @@ else{
 }
 ```
 ### Ternary Operator
+```javascript
 let num1 = 10;
 let num2= 16;
 let statement = (num2>num1)?"Number2 is greater":"Number 1 is greater";
 console.log(statement);
-------------->Guessing Game
+```
+Guessing Game
+```javascript
 let number = +prompt("Enter your number!!");
 let winningNumber = 13;
 if(winningNumber===number){
@@ -96,6 +99,7 @@ else{
         console.log("Number is too low");45
     }
 }
+```
 ### Arrays
 ```javascript
 let fruits = ["Apple", "Orange","Banana"];
